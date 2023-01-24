@@ -4,6 +4,7 @@ import { IFilm, ISortingType } from '../@types/films';
 import { FilmCard } from '../components/FilmCard';
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
+import { Search } from '../components/Search';
 import { SelectSort } from '../components/SelectSort';
 import { FILMS } from '../utils/films';
 
@@ -41,6 +42,7 @@ export const Home = () => {
       <header className="4xl:w-[2150px] mt-20 flex w-[90vw] flex-col items-center justify-around xl:w-[1200px]">
         <Header />
         <div className="mt-16 flex w-full flex-col items-center lg:flex-row-reverse">
+          <Search setFilms={setFilms} />
           <SelectSort
             sortingType={sortingType}
             setSortingType={setSortingType}
