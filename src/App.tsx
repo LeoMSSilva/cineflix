@@ -1,3 +1,4 @@
+import { Home } from './screens/Home';
 import './styles/global.css';
 
-export const App = () => <h1 className="text-white">CineFlix</h1>;
+export const App = () => <Home />;
