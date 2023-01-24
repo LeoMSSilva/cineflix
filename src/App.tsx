@@ -1,3 +1,3 @@
 import './styles/global.css';
 
-export const App = () => <h1>CineFlix</h1>;
+export const App = () => <h1 className="text-white">CineFlix</h1>;
