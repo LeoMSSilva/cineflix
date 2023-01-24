@@ -6,3 +6,5 @@ export type IFilm = {
   releaseYear: number;
   title: string;
 };
+
+export type ISortingType = 'country' | 'name' | 'year';
