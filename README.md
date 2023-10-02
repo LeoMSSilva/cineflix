@@ -51,7 +51,7 @@ You can access the project through the link published at **[firebase](https://ci
 **First you need to install:**
 
 - [Node.js](https://pt-br.nodejs.org) (required)
-- [Yarn](https://yarnpkg.com) (optional)
+- [Pnpm](https://pnpm.io/pt/) (optional)
 
   **Then in order, clone the project.**
 
@@ -72,19 +72,13 @@ SSH is a secure protocol, but you need to register a key ssh in your github befo
 ## :hammer_and_wrench: Install dependencies
 
 ```bash
-  yarn
-```
-
-or
-
-```bash
-  yarn install
+  pnpm install
 ```
 
 ## :rocket: Getting Started
 
 ```bash
-  yarn dev
+  pnpm run dev
 ```
 
 ---
